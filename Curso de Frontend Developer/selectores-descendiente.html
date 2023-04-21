@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+        Descendientes
+        En este ejemplo, todos los elementos “p” que están dentro de un elemento “div” son estilizados, así no sean hijos directos. Por otra parte, los elementos “p” que estén solitos no se estilizan.
+        */
+        div p{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Prueba</p>
+        <section>
+            <p>Prueba</p>
+        </section>
+    </div>
+    <p>prueba</p>
+    <p>prueba</p>
+</body>
+</html>
