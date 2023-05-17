@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            position: relative;
+            width: 600px;
+            height: 600px;
+            background: papayawhip;
+            justify-content: center;
+            
+        }
+
+        div{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: solid;
+            background: red;
+            
+        }
+
+        .circle-1{
+            top: 0px;
+            z-index: 4;
+        }
+
+        .circle-2{
+            top: 100px;
+            z-index: 3;
+        }
+
+        .circle-3{
+            top: 200px;
+            z-index: 2;
+        }
+
+        .circle-4{
+            top: 300px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div class="circle-1"></div>
+        <div class="circle-2"></div>
+        <div class="circle-3"></div>
+        <div class="circle-4"></div>
+    </section>
+</body>
+</html>
