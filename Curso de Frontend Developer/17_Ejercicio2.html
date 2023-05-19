@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* ---------- */
+
+        main {
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(45deg, red, blue);
+        }
+
+        .card-container {
+            width: 380px;
+            height: 430px;
+            background-color: white;
+            position: relative;
+            border-radius: 20px;
+            border: 5px solid white;
+            box-shadow: 4px 10px 50px black;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .img-background {
+            display: inline-block;
+            width: 100%;
+            height: 160px;
+            background: url("https://media.istockphoto.com/id/179262162/es/foto/nebulosa-en-scorpius-vdb-99.jpg?s=612x612&w=0&k=20&c=XU0FdqtOJCDgR5JbniVu5OIYPuY5SUSRZNVjmcpOKxA=") center/cover no-repeat;
+            z-index: 10;
+        }
+
+        .card-img-profile {
+            position: absolute;
+            top: 90px;
+            left: 120px;
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            border: 4px solid white;
+            background: url("https://images.pexels.com/photos/7672255/pexels-photo-7672255.jpeg?auto=compress&cs=tinysrgb&w=1600") center/cover no-repeat;
+        }
+
+        /* ---------- */
+
+        .card-profile {
+            display: flex;
+            width: 100%;
+            margin: 45px auto 20px;
+            display: inline-block;
+        }
+
+        .card-profile h1 {
+            width: 65%;
+            margin: 10px auto 15px;
+            border-bottom: 2px solid rgba(211, 211, 211, 0.65);
+            color: #025395;
+        }
+
+        .card-information {
+            display: flex;
+            width: 100%;
+            height: 40px;
+            grid-template-columns: 1fr 1fr;
+            justify-content: space-evenly;
+            font-size: 1rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section class="card-container">
+            <div class="img-background">
+            </div>
+            <div class="card-img-profile"></div>
+            <div class="card-profile">
+                <h1>Gerardo Lara Ortiz</h1>
+                <p>Soy un programador FullStack XD</p>
+            </div>
+            <div class="card-information">
+                <a href="" class="multimedia">Instagram</a>
+                <a href="" class="multimedia">Whatsapp</a>
+                <a href="" class="multimedia">GitHub</a>
+
+
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
