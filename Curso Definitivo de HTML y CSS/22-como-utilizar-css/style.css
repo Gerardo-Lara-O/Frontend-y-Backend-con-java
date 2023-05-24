@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: skyblue;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    width: 80%;
+    height: 60%;
+    background: white;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 12px;
+    
+}
+
+.contenedor_titulo{
+    padding: 16px;
+    margin: 16px;
+    color: brown;
+    background-color: papayawhip;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.contenedor_seccion--titulo{
+    font-size: 22px;
+    color: brown;
+}
+
+.contenedor_seccion--fruta{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 12px;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+}
+
+
+img{
+    width: 40%;
+}
