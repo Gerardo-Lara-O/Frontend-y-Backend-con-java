@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+    position: relative;
+    overflow: hidden;
+}
+
+/** INICIO DEL HEADER */
+.contenedor_cabeza{
+    width: 100vw;
+    height: 10rem;
+    background-color: brown;
+    position: relative;
+}
+
+.contenedor_cabeza--navegacion{
+    padding: 2.0rem;
+    text-align: right;
+    position: relative;
+    
+}
+
+.contenedor_cabeza--navegacion ul li{
+    display: inline-block;
+    padding: 2rem;
+    font-size: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    
+}
+
+.contenedor_cabeza--navegacion a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.contenedor_cabeza--img{
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    margin: 0.8rem;
+
+}
+
+.contenedor_cabeza--img img{
+    width: 100%;
+    border-radius: 2rem;
+}
+
+
+/** INICIO CONTENIDO */
+.contenedor_contenido{
+    position: relative;
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 80vh;
+
+}
+.contenedor_contenido--descripcion{
+    height: 75vh;
+    width: 70vw;
+    background-color: seagreen;
+    position: absolute;
+    right: 0;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    overflow: hidden;
+}
+
+.contenedor_contenido--clases{
+    background-color: brown;
+    height: 75vh;
+    width: 28vw;
+    position: absolute;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    overflow: hidden;
+
+}
+
+
+
+/** INICIO FOOTER */
+.contenedor_pie{
+background-color: brown;
+width: 100vw;
+height: 12vh;
+position: fixed;
+bottom: 0;
+
+}
+
+/** FIN FOOTER */
+
