@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+
+.contenedor_cabeza{
+    width: 100vw;
+    height: 10rem;
+    background-color: brown;
+    position: relative;
+}
+
+.contenedor_cabeza--navegacion{
+    position: relative;
+    padding: 2rem ;
+    text-align: right;
+}
+
+.contenedor_cabeza--navegacion ul li{
+    display: inline-block;
+    padding: 2rem 1.5rem 1.5rem 2rem;
+    font-size: 2rem;
+}
+
+.contenedor_cabeza--navegacion a{
+    text-decoration: none;
+    color: bisque;
+}
+
+.contenedor_cabeza--img{
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    margin: .5rem;
+}
+
+
+.contenedor_contenido{
+    position: relative;
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 80vh;
+
+}
+
+.contenedor_contenido--descripcion{
+    height: 75vh;
+    width: 70vw;
+    background-color: seagreen;
+    position: absolute;
+    right: 0;
+    padding: 1rem;
+    overflow: hidden;
+    
+
+}
+
+
+.contenedor_contenido--clases{
+    background-color: cadetblue;
+    height: 75vh;
+    width: 30vw;
+    position: absolute;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.contenedor_pie{
+    background-color: brown;
+    width: 100vh;
+    height: 15vh;
+    position: fixed;
+    bottom: 0;
+}

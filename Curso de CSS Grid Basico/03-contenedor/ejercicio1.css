@@ -1,0 +1,45 @@
+:root{
+    --verde-claro: #cbee39;
+    --verde-mediano: #70bc04;
+    --verde-obscuro: #258300;
+}
+    
+
+.container{
+    background-color: grey;
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    justify-content: center;
+    align-content: center;
+}
+
+.item-1{
+    background-color: var(--verde-claro);
+}
+.item-2{
+    background-color: var(--verde-mediano);
+}
+.item-3{
+    background-color: var(--verde-mediano);
+}
+.item-4{
+    background-color: var(--verde-obscuro);
+}
+.item-5{
+    background-color: var(--verde-obscuro);
+}
+.item-6{
+    background-color: var(--verde-claro);
+}
+.item-7{
+    background-color: var(--verde-claro);
+}
+.item-8{
+    background-color: var(--verde-mediano);
+}
+.item-9{
+    background-color: var(--verde-obscuro);
+}

@@ -20,7 +20,7 @@ main{
 
 }
 
-.contenedor{
+/* .contenedor{
     width: 58rem;
     height: 62rem;
     background-color: white;
@@ -30,7 +30,7 @@ main{
     justify-content: center;
     position: absolute;
     
-}
+} */
 
 .contenedor_titulo{
     background-color: pink;
