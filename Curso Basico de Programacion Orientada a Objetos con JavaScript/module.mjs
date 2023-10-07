@@ -1,15 +1,8 @@
-import { PlatziClass } from "./07-modulos.mjs";
+import {PlatziClass} from "./13-modulos.mjs";
 
 const clase67 = new PlatziClass({
-  name: "JavaScript: orientado a objetos, basado en prototipos",
-  videoID: "wertyuio;p87htreghtyuioouyjtrh",
-});
+    name:  "clase67",
+    videoId: "47287578"
+})
 
 clase67.reproducir();
-clase67.pausar();
-
-clase67.reproducir();
-clase67.pausar();
-
-clase67.reproducir();
-clase67.pausar();

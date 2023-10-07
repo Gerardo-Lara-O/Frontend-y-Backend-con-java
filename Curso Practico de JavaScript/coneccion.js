@@ -15,6 +15,7 @@ formulario.addEventListener('submit', sumarInputValues)
 
 
 function sumarInputValues(event){
+    console.log({event});
     event.preventDefault()
     const sumaInputs = Number(input1.value) + Number(input2.value)
     result.innerText = `El resultado es: ${sumaInputs}`
